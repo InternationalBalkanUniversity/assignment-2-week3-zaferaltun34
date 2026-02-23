@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Week 3 - HTML Lab</title>
-
   <!-- TODO (Exercise 4): Add a favicon link here -->
   <!-- Example: <link rel="icon" type="image/png" href="assets/favicon/favicon.png"> -->
 </head>
@@ -14,76 +13,159 @@
   <!-- ========================= -->
   <!-- Exercise 1: Page Structure -->
   <!-- ========================= -->
+  
   <header>
     <!-- TODO: Add a main heading (h1) -->
+     <h1>My Website</h1>
     <!-- TODO: Add an additional heading level (h2 or h3) -->
+     <h2>Welcome to My Website</h2>
+     <h3>Explore My Content</h3>
   </header>
-
+<hr>
   <!-- ========================= -->
   <!-- Exercise 4: Links -->
   <!-- ========================= -->
   <nav>
     <!-- TODO: Add an external link -->
+      <a href="https://github.com/zaferaltun05" target="_blank">Visit My GitHub Profile</a>
     <!-- TODO: Add a link that opens in a new tab (target="_blank") -->
   </nav>
-
+<hr>
   <main>
     <!-- ========================= -->
     <!-- Exercise 2: Paragraphs + HR -->
     <!-- ========================= -->
     <section>
       <!-- TODO: Add multiple paragraphs -->
+      <p>This is the first paragraph of my website content.</p>
+      <p>This is the second paragraph of my website content.</p>
       <!-- TODO: Add one horizontal rule (hr) -->
+      <hr>
     </section>
 
     <!-- ========================= -->
     <!-- Exercise 2: Text Formatting -->
     <!-- ========================= -->
+     
     <section>
       <!-- TODO: Use <strong> -->
+      <p>This is a <strong>strong</strong> paragraph.</p>
       <!-- TODO: Use <em> -->
+      <p>This is an <em>emphasized</em> paragraph.</p>
       <!-- TODO: Use <mark> -->
+      <p>This is a <mark>highlighted</mark> paragraph.</p>
       <!-- TODO: Use <sup> OR <sub> -->
+      <p>This is a paragraph with a <sup>superscript</sup> and a <sub>subscript</sub>.</p>
     </section>
-
+<hr>
     <!-- ========================= -->
     <!-- Exercise 3: Lists -->
     <!-- ========================= -->
     <section>
       <!-- TODO: Add one unordered list (ul) -->
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
       <!-- TODO: Add one ordered list (ol) -->
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ol>
       <!-- TODO: Add one description list (dl) -->
+        <dl>
+          <dt>HTML</dt>
+          <dd>HyperText Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+          <dt>JavaScript</dt>
+          <dd>A programming language for the web</dd>
+        </dl>
     </section>
-
+<hr>
     <!-- ========================= -->
     <!-- Exercise 4: Image -->
     <!-- ========================= -->
     <section>
       <!-- TODO: Add one image (local or online) -->
+        <img src="https://www.ibu.edu.mk/Uploads/Pages/1081/Thumbnail/ibu%20logo.jpg" alt="ibu logo" width="500" height="350">
       <!-- If local, place it in: assets/images/ -->
       <!-- Example: <img src="assets/images/photo.jpg" alt="..."> -->
+       <img src="ibu logo.jpg" alt="ibu logo" width="500" height="350">
     </section>
-
+<hr>
     <!-- ========================= -->
     <!-- Exercise 5: Table -->
     <!-- ========================= -->
+
     <section>
       <!-- TODO: Create a table with caption, thead, tbody, tfoot -->
       <!-- TODO: At least 3 data rows -->
+      <table>
+        <caption>Sample Table</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Zafer</td>
+            <td>24</td>
+            <td>Turkiye</td>
+          </tr>
+          <tr>
+            <td>Lorik</td>
+            <td>25</td>
+            <td>Albania</td>
+          </tr>
+          <tr>
+            <td>Omer</td>
+            <td>22</td>
+            <td>Turkiye</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">End of Table</td>
+          </tr>
+        </tfoot>
     </section>
 
     <!-- ========================= -->
     <!-- Exercise 6: Form -->
     <!-- ========================= -->
-    <section>
+         <section>
       <!-- TODO: Create a form with:
            text input, email input, password input,
            radio buttons, checkbox, submit button -->
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to newsletter</label><br><br>
+        <input type="submit" value="Submit">
+      </form>
+       
     </section>
   </main>
-
+<hr>
   <footer>
     <!-- TODO: Add your name + year -->
+     
+    <p>Zafer Altun, 2026</p>
   </footer>
 </body>
 </html>
